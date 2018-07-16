@@ -18,14 +18,13 @@
             }
     
             /* navigation menu */
-           nav {
-               background: rgb(102,51,153);
-               margin: 0 auto;
-               margin-bottom: 20px;
-               display: flex;
-               padding: 10px;
-               border-radius: 7px;
-        
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;o
+                border-radius: 30px
               
             }
             nav header {
@@ -57,7 +56,6 @@
             }
             [class=sidebar] img {
                 width: 200px;
-                border-radius: 7px;
             }
             [class=content] {
                 flex: 1;
@@ -66,23 +64,22 @@
             [class=interests] header {
                 font-size: 1.25em;
             }
-       </style>
-       <title>Dominique's 1st Website</title>
-   </head>
-   <body>
-       <div id="all-contents">
-           <nav>
+        </style>
+        <title>Dominique's 1st Website</title>
+    </head>
+    
+    <body>
+         <div id="all-contents"> 
+            <nav>
                 <header>Dominique's Glorious Website</header>
-              <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="studies.html">Studies</a></li>
-                  <li><a href="presentation.html">Presentation</a></li>
-              </ul>
-           </nav>
-           <main>
-               <div class="sidebar">
-                    <img src="http://media-cdn.timesfreepress.com/img/photos/2015/11/12/1447359045_ComputerCode_t1070_h31ee265fb8ab7542d7a18f30a6fccc6c3f33db10.jpg"></img>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            <main>
+                 <div class="sidebar">
+                     https://www.facebook.com/photo.php?fbid=101702120757553&set=a.101702134090885.1073741826.100027532952971&type=3&source=11&referrer_profile_id=100027532952971
                 </div>
     
                 <div class="content">
@@ -94,11 +91,10 @@
                             <li>Computer coding</li>
                             <li>Web design</li>
                             <li>Speacial effects</li>
-                         </ul>
-                   </section>
-
+                        </ul>
+                    </section>
                 </div>
-           </main>
-       </div>
-   </body>
+            </main>
+        </div>
+    </body>
 </html>
