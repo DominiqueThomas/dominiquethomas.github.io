@@ -225,12 +225,13 @@ function sortAscending(stringOne, stringTwo) {
     } else {
         return 0;
     }
+}
+    
+    
     
     function sortAscending(stringOne, stringTwo) {
     
-    return stringOne-stringTwo;
    
-    console.log(sortAscending.sortAscending());
     
     
 
@@ -250,26 +251,8 @@ function sortAscending(stringOne, stringTwo) {
 function sortDescending(stringOne, stringTwo) {
     
     
-    
-    
     // YOUR CODE BELOW HERE //
     
-        var a = stringOne;
-    var b = stringTwo;
-    
-    if(a > b) {
-        return 1;
-    } else if ( a < b) {
-        return -1;
-    } else {
-        return 0;
-    }
-    
-    function sortAscending(stringOne, stringTwo) {
-    
-    return stringOne-stringTwo;
-   
-    console.log(sortDescending.sortDescending());
 
     // YOUR CODE ABOVE HERE //
 }
